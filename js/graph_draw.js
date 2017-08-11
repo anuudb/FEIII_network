@@ -91,11 +91,11 @@ function tick() {
   	    return "translate(" + d.x + "," + d.y + ")"; });
 }
 
+$("#slider").slideReveal("false");
 $(function(){
 	slider = $('#slider').slideReveal({
 		trigger: $("#trigger")
 	});
 });
-$("#slider").slideReveal("false");
 
 });
