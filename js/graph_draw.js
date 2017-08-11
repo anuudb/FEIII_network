@@ -91,4 +91,11 @@ function tick() {
   	    return "translate(" + d.x + "," + d.y + ")"; });
 }
 
+$(function(){
+	slider = $('#slider').slideReveal({
+		trigger: $("#trigger")
+	});
+});
+$("#slider").slideReveal("false");
+
 });
