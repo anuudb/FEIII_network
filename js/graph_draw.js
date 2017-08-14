@@ -1,6 +1,6 @@
 var netDiv = document.getElementById("network");
 // get the data
-d3.csv("data/data2012.csv", function(error, links) {
+d3.csv("data/data.csv", function(error, links) {
 
     var nodes = {};
 
@@ -98,12 +98,12 @@ d3.csv("data/data2012.csv", function(error, links) {
     }
 
 	//add slider to the page
-    /* $("#slider").slideReveal("false");
+    $("#slider").slideReveal("false");
     $(function() {
         slider = $('#slider').slideReveal({
             trigger: $("#trigger")
         });
-    }); */
+    });
 
     var linkedByIndex = {};
 		
